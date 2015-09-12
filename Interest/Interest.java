@@ -10,6 +10,8 @@ public class Interest {
         double interest = interestMult * interestRate;
         DecimalFormat twoDForm = new DecimalFormat("#.00");
        
+    
+       
        
         double balanceInterest = balance + interest;
         

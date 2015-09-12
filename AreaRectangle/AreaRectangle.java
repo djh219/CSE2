@@ -15,6 +15,9 @@ public class AreaRectangle {
     public static void main(String[] args) {
         
        area();
+       
+       int x = (int) (Math.pow(3,2) / 2);
+       System.out.println(x);
     }
    
 }
