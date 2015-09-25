@@ -1,5 +1,6 @@
 //Derek Huber
 //Interest Calculator
+import java.util.Scanner;
 
 public class Interest {
     public static void main(String[] args) {
@@ -8,18 +9,10 @@ public class Interest {
         double interestRate = 0.07;
         double interestMult = 0.43;
         double interest = interestMult * interestRate;
-        DecimalFormat twoDForm = new DecimalFormat("#.00");
-       
-    
-       
-       
         double balanceInterest = balance + interest;
         
         System.out.println(interest);
-        System.out.println(interest1);
-        System.out.println(twoDform.format(interest1));
-        
-        
+
         
     }
 }
