@@ -8,9 +8,9 @@ public class LoopExamples{
             i++;
         }
         //Example of a for loop
-        int n;
-        for (n=11; n<12; n++){
-            System.out.println(n);
+        int q;
+        for (q=11; q<12; q++){
+            System.out.println(q);
         }
         
         //Sum all numbers between 0 and 10
@@ -26,13 +26,14 @@ public class LoopExamples{
         for (x=1; x<=1; x+=2){
             System.out.println(x);
         }
-        System.out.println("skip");
-      int myVal = 10;
+    
+        int n, m =6;
+if(m>5){
+    n=4;
+}
+System.out.println("n="+n);
 
-    while (myVal % 3 != 0) {
-        myVal = myVal - 5;
-    }
-
-    System.out.println(24/myVal);
+        
+    
     }
 }
