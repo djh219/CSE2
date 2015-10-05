@@ -25,11 +25,21 @@ public class TimeSheets {
         //Create a for loop that calculates the wage and hours for each employee then adds them to the total
         int count;
         for (count = 0; count < numEmployees; count++){
-            System.out.print("Enter the wage in cents: ");
+            System.out.print("Enter the wage of the employee in cents: ");
             int wage = myScanner.nextInt();
-            System.out.print("Enter the number of hours per week: ");
-            int weeklyHours = myScanner.nextInt();
+            System.out.print("Enter the number of hours on Monday: ");
+            int mondayHours = myScanner.nextInt();
+            System.out.print("Enter the number of hours on Tuesday: ");
+            int tuesdayHours = myScanner.nextInt();
+            System.out.print("Enter the number of hours on Wednesday: ");
+            int wednesdayHours = myScanner.nextInt();
+            System.out.print("Enter the number of hours on Thursday: ");
+            int thursdayHours = myScanner.nextInt();
+            System.out.print("Enter the number of hours on Friday: ");
+            int fridayHours = myScanner.nextInt();
             
+            int weeklyHours = mondayHours + tuesdayHours + wednesdayHours + thursdayHours + fridayHours;
+        
             totalHours+= weeklyHours;
             totalWage+= wage;
             int payrollEmployee= weeklyHours * wage;
