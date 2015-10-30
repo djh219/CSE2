@@ -1,12 +1,9 @@
 public class equality{
- public static int volume(int height, int length, int width) {
-    int volume = width * height * length;
-    return volume;
-  }
-  public static void main(String args[]) {
-    System.out.println(volume(3, 2, 1)); 
-  }
-  
-
-
+    public static void main(String [] args){
+        int product = 1;
+        for (int i = 2; i<=5; i++){
+            product = product * i;
+        }
+        System.out.println(product);
+    }
 }
